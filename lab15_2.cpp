@@ -27,6 +27,9 @@ void inputMatrix(double a[][N]) {
 	}
 }
 
-
-
-void showMatrix(const bool a[][N]);
+void showMatrix(const bool a[][N]) {
+	for (int i = 1; i<=N; i++) {
+		for (int j = 0; j<N; j++) cout << a[i-1][j] << " ";
+		cout << "\n";
+	}
+}
